@@ -1,0 +1,286 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #7882a4;
+}
+.glp {
+  font-size: 200px;
+  color: rgb(97, 7, 34);
+}
+.header-logo {
+  height: 100px;
+  margin-left: 24px;
+  border: 4px solid burlywood;
+  border-radius: 50%;
+  box-shadow: 1px 1px;
+}
+.nav {
+  display: block;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: #ddbe303f;
+  /*
+  background-color: #100303;*/
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 12px;
+}
+.nav-links a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  padding: 16px;
+}
+a {
+  color: rgb(243, 253, 247);
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      60deg,
+      rgba(218, 69, 106, 0.85),
+      rgba(235, 82, 12, 0.5)
+    ),
+    url(https://p4.wallpaperbetter.com/wallpaper/378/433/193/blur-drums-tool-drum-wallpaper-preview.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+}
+.media-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 128px 72px 72px;
+  gap: 24px;
+  padding: 32px;
+  border: 3px solid #cf0000;
+  border-radius: 200px;
+  box-shadow: 2px 2px 20px 2px;
+  background: rgba(57, 60, 90, 0.7);
+}
+.textbox {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: flex-start;
+  gap: 20px;
+  padding-left: 32px;
+}
+.textbox h1 {
+  color: #ff7171;
+  text-shadow: 2px 2px black;
+}
+.textbox p {
+  font-size: 32px;
+}
+h1 {
+  font-family: "Roboto Serif", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+}
+p {
+  color: whitesmoke;
+}
+
+.worker-container {
+  display: flex;
+  justify-content: center;
+
+  flex-flow: row wrap;
+  gap: 48px;
+  padding-bottom: 128px;
+}
+
+.marcas-icon {
+  width: 300px;
+  height: 300px;
+  border: 12px solid rgb(230, 250, 250);
+  border-radius: 32px;
+  box-shadow: 2px 2px 3px black;
+  object-fit: cover;
+}
+
+.team-title {
+  color: white;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding: 96px 0 48px;
+}
+
+.social {
+  position: relative;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li {
+  list-style: none;
+}
+.social li a {
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover {
+  transform: scale(0.5) translateY(-15px);
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  padding: 128px 192px 96px;
+  background-color: #f0134d;
+  font-size: 24px;
+  line-height: 150%;
+  font-style: italic;
+}
+
+.signup-section {
+  display: flex;
+  align-items: center;
+  background-color: #f0134d;
+  border: 12px solid lightblue;
+  border-radius: 24px;
+  box-shadow: 2px 2px 3px black;
+  margin: 128px auto;
+  padding: 32px 60px;
+  max-width: 900px;
+}
+.contact-details {
+  font-size: 1.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #393e46;
+  border-top: 4px solid #0a043c;
+  
+}
+footer a, p {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+@media only screen and (max-width: 767px),
+(max-height: 440px) {
+    body {
+        min-width: 340px;
+    }
+    body {
+        touch-action: manipulation;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    html,
+    body {
+        overflow: hidden;
+    }
+    body {
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 100vh;
+        background: #FFAB73;
+        color: white;
+    }
+    @media (min-width: 831px) {
+        body {
+            position: relative;
+            height: auto;
+            min-height: 100vh;
+        }
+        body {
+            background: #131417;
+        }
+        html,
+        body {
+            height: 100%;
+            -webkit-overflow-scrolling: touch;
+        }
+        html {
+            font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+            line-height: 1.5;
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .contact-section,
+        .contact-links,
+        .contact-section-header {
+            width: auto;
+            display: block;
+            margin: auto;
+        }
+    }
+}
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+    @media (max-width: 61.25em) {
+        html {
+            font-size: 58%;
+        }
+        @media (max-width: 75em) {
+            html {
+                font-size: 60%;
+            }
+            html {
+                box-sizing: border-box;
+                font-size: 62.5%;
+                scroll-behavior: smooth;
+            }
+        }
+    }
+}
